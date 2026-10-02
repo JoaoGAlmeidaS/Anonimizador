@@ -1,0 +1,18 @@
+{
+  "descricao": "CPF e telefone do paciente ditados com espaços entre os dígitos, como a transcrição costuma escrever.",
+  "paciente": {
+    "nome": "Henrique Bastos",
+    "cpf": "904.617.253-80",
+    "telefone": "(62) 98111-2233",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Henrique leu o CPF em voz alta: 9 0 4 6 1 7 2 5 3 8 0. Depois corrigiu o telefone no cadastro, que é 62 98111 2233. O filho, Enzo, anotou tudo.",
+  "esperado": [
+    {"trecho": "Henrique", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "9 0 4 6 1 7 2 5 3 8 0", "tipo": "CPF", "camada": 1},
+    {"trecho": "62 98111 2233", "tipo": "TELEFONE", "camada": 1},
+    {"trecho": "Enzo", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["em voz alta", "no cadastro"]
+}

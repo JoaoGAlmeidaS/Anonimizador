@@ -1,0 +1,26 @@
+{
+  "descricao": "Fala longa em diálogo, com vários terceiros, lugares e um clube de futebol.",
+  "paciente": {
+    "nome": "Rodrigo Albuquerque Teixeira",
+    "cpf": "",
+    "telefone": "(31) 98877-1122",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Paciente: Então, essa semana foi pesada. Na segunda eu tive aquela reunião com o Fernando e a Patrícia, e eles me disseram que o projeto vai ser cancelado. Eu fiquei pensando nisso a noite inteira, sabe? Aí na terça minha irmã, a Juliana, veio jantar em casa com o marido dela, o Gustavo, e eu não consegui falar de outra coisa.\nTerapeuta: E como você se sentiu durante o jantar?\nPaciente: Mal. Eu sentia que estava estragando a noite de todo mundo. A Juliana percebeu e me chamou na cozinha. Ela disse: Rodrigo, você precisa parar de carregar tudo sozinho. Eu sei que ela tem razão, mas é difícil. Desde que o meu pai morreu, em 2019, eu sinto que virei o responsável pela família.\nTerapeuta: Você comentou da última vez que o seu pai também era assim.\nPaciente: Era. O seu Antônio resolvia tudo. Ele trabalhou quarenta anos na mesma fábrica em Contagem. Quando eu era criança, ele me levava pra ver o Atlético no Mineirão. Eu lembro do cheiro do estádio até hoje.\nPaciente: Na quinta eu fui na casa da minha avó, a Dona Conceição Ribeiro, e ela me mostrou umas fotos antigas. Tinha uma foto do meu pai com o tio Sebastião na frente da casa de Sabará. Eu chorei ali, na frente dela. Fazia tempo que eu não chorava.",
+  "esperado": [
+    {"trecho": "Fernando", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Patrícia", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Juliana", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Gustavo", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Rodrigo", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Antônio", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Conceição Ribeiro", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Sebastião", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Contagem", "tipo": "LOCAL", "camada": 4},
+    {"trecho": "Atlético", "tipo": "ORGANIZACAO", "camada": 4},
+    {"trecho": "Mineirão", "tipo": "LOCAL", "camada": 4},
+    {"trecho": "Sabará", "tipo": "LOCAL", "camada": 4}
+  ],
+  "preservar": ["2019", "quarenta anos", "Dona", "tio", "Paciente:", "Terapeuta:"]
+}

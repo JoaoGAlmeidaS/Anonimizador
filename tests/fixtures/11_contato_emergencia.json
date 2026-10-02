@@ -1,0 +1,19 @@
+{
+  "descricao": "Contato de emergência em texto livre: nome, telefone e e-mail saem dele para a deny-list.",
+  "paciente": {
+    "nome": "Simone Arruda",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": "Marcos Vieira (marido) - 21 99876-5432 / marcos.vieira@exemplo.com"
+  },
+  "texto": "Simone disse que o Marcos anda distante. Ela tentou ligar no 99876-5432 várias vezes. Quando escreveu para marcos.vieira@exemplo.com, ele respondeu só no dia seguinte. A sogra, dona Vieira, acha que é coisa do trabalho.",
+  "esperado": [
+    {"trecho": "Simone", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Marcos", "tipo": "PESSOA", "camada": 1},
+    {"trecho": "99876-5432", "tipo": "TELEFONE", "camada": 1},
+    {"trecho": "marcos.vieira@exemplo.com", "tipo": "EMAIL", "camada": 1},
+    {"trecho": "Vieira", "tipo": "PESSOA", "camada": 1}
+  ],
+  "preservar": ["A sogra, dona", "dia seguinte"]
+}

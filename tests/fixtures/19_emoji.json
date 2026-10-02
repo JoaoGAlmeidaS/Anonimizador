@@ -1,0 +1,16 @@
+{
+  "descricao": "Emoji no texto: o índice do Python e o do JS (UTF-16) divergem — os segmentos não podem depender de posição.",
+  "paciente": {
+    "nome": "Letícia Barros",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Letícia mostrou a mensagem que recebeu da Amanda: 'te espero lá 😊'. Depois a Letícia disse que a Amanda é a única amiga que ainda procura ela 💛.",
+  "esperado": [
+    {"trecho": "Letícia", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Amanda", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["😊", "💛", "única amiga"]
+}

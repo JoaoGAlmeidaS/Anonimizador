@@ -1,0 +1,19 @@
+{
+  "descricao": "Erro típico de transcrição: tudo minúsculo e sem pontuação. Nomes de terceiros em minúsculas escapam das camadas 1 a 3.",
+  "paciente": {
+    "nome": "Mariana Lopes Furtado",
+    "cpf": "",
+    "telefone": "(85) 99123-4567",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "aí a mariana falou que não aguentava mais o trabalho e que o lucas o gerente dela ficava ligando pro celular dela que é 99123 4567 até de madrugada e ela não sabia o que fazer porque a mãe dela a dona sueli dependia daquele salário e o irmão o pedro tinha acabado de perder o emprego na construtora",
+  "esperado": [
+    {"trecho": "mariana", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "99123 4567", "tipo": "TELEFONE", "camada": 1},
+    {"trecho": "lucas", "tipo": "PESSOA", "camada": 4},
+    {"trecho": "sueli", "tipo": "PESSOA", "camada": 4},
+    {"trecho": "pedro", "tipo": "PESSOA", "camada": 4}
+  ],
+  "preservar": ["de madrugada", "construtora"]
+}

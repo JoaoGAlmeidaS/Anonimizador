@@ -1,0 +1,95 @@
+# Candidatos a nome próprio para ferramentas/gerar_nomes_ibge.py (DEV).
+# Lista escrita à mão, sem dado de ninguém: cada candidato só entra em
+# nomes_ibge.txt se a API do IBGE confirmar que ele existe como nome no Censo 2010,
+# com frequência mínima. Um por linha, ou vários separados por espaço.
+
+ana maria francisca antonia adriana juliana marcia fernanda patricia aline sandra
+camila amanda bruna jessica leticia julia luciana vanessa mariana gabriela vera
+vitoria larissa claudia beatriz rita luana sonia renata eliane josefa simone natalia
+cristiane carla debora rosangela jaqueline rosa daniela aparecida marlene terezinha
+raimunda andreia fabiana lucia raquel angela rafaela joana luzia elaine daniele regina
+daiane suelen alessandra isabela bianca lais isabel sara lorena eduarda alice sofia
+sophia valentina helena laura manuela giovanna giovana heloisa luiza lara livia cecilia
+clara yasmin isadora nicole rebeca emanuelle melissa esther ester lavinia agatha
+catarina marina olivia mirella mirela carolina caroline paula priscila tatiana viviane
+michele kelly karina karen katia monica silvia silvana solange sueli neide celia edna
+eliana elisangela rosana rosemeire roseli rosilene rose rosimeire marta marli margarete
+glaucia gloria graca dalva dulce dora doralice iolanda yolanda ivone ivete ines irene
+iris jane janete joelma josiane juliane jussara kelen leila lilian liliane lucimar
+lucineia lucilene luciene magali mara marcela marcelle marilia marisa mariza marluce
+maura mercia miriam nadia nair nathalia neusa nilza noemi olga paola pamela poliana
+rafaella regiane roberta rosane ruth sabrina samara samanta samantha sheila sirlei
+stefany stephanie suzana thais tamires tania telma tereza teresa valeria vanda wanda
+vilma zilda zuleide adriele alana andressa angelica antonella aurora barbara benedita
+brenda celeste cintia cynthia cristina denise diana dayane edilene edileuza eloisa
+elisa elis eliza emily emilly estela evelyn evelin fatima flavia franciele gisele
+gislaine glenda greice heloise hellen ingrid isis ivana jamile janaina jordana joyce
+judite kamila kamilly kauane keila luna maite malu mayara maiara milena nayara pietra
+raissa rayssa rayane raiane sarah talita thalita thamires valquiria wanessa yara zelia
+zenaide abigail adelaide adelia agnes alcione amelia anita arlete augusta betania
+carmem carmen cassia celina clarice clarissa cleide cleonice conceicao creusa
+cristiana daniella dayse deise dilma dirce edite edith elenice eliete elza ercilia
+erica eunice eva fabiola francine geovana geralda gilda gilmara gisela giselle guiomar
+hilda iara ilda ivania ivonete izabel jacira josefina jucelia julieta jurema lourdes
+lucinda luisa lurdes madalena maisa marcelina margarida marieta marilda marilene
+marinalva matilde mercedes nazare neli nelma nilda nubia odete ondina palmira penha
+quiteria rosalia rosalina rosario sebastiana selma severina silvania socorro ursula
+valdirene vania veronica zulmira ariane ariadne cibele emanuela fabricia gabriele
+gabrielle giulia isabelle isabella jennifer jenifer kailane laiane lidiane ludmila
+marcele micaela michelle nicolly taina tayna thaynara alessandra aurea aurelia
+benedicta berenice candida carolaine catia cleusa cleuza dalila damares edineia
+eduarda elba eliene elizabete elizabeth ellen eloa emanuele fernandes francielle
+gabriely geane geisa gessica gilvania graziela graziele hosana ilma ione isaura
+ivanete ivanilde jacqueline jandira jeane joseane josilene jucileide jessika kaline
+keli leidiane leonor lidia lindalva lucelia luiza luzinete marcileide marinete
+marizete mayra monalisa naiara naira nathaly neuza nivea norma rayara regina rejane
+rosely rosiane ruth sandra sileide silvana sirlene sonia suely suzane tatiane
+valdete valeska vitoria waleska zuleica alicia ayla aylla bella clarinha elisa
+eloah esther gabriella hadassa isis lis liz mariah maya melina mia rafaella sabrina
+yasmim stella estella
+
+jose joao antonio francisco carlos paulo pedro lucas luiz luis marcos gabriel rafael
+daniel marcelo bruno eduardo felipe raimundo rodrigo manoel manuel mateus matheus andre
+fernando fabio leonardo gustavo guilherme leandro tiago thiago anderson ricardo marcio
+jorge sebastiao alexandre roberto edson diego vitor victor sergio claudio joaquim
+vinicius renato julio geraldo adriano luciano cicero mario rogerio miguel arthur artur
+heitor bernardo davi david theo teo lorenzo gael enzo samuel benjamin nicolas henrique
+murilo benicio isaac lucca luca otavio bryan caua kaique caio vicente emanuel augusto
+igor ian yuri wesley wellington washington willian william wagner valdir vagner adilson
+ademir alberto alex alan allan alisson amaro ari ariel arnaldo benedito breno cesar
+cristiano damiao danilo denis douglas edilson edmilson edvaldo elias emerson erick erik
+everton evandro ezequiel fabricio flavio gilberto gilmar gilson giovani glauber hugo
+humberto ivan jair jean jefferson jeferson joel jonas jonathan jonatas josue juliano
+kevin leonel lourival marcel mauricio mauro maycon michael milton moises nathan natan
+nelson nilton nivaldo odair orlando osmar osvaldo oswaldo patrick raul reginaldo
+reinaldo renan ronaldo ruan rubens sandro saulo silvio valter walter wanderson wendel
+wilson abel abraao adao adriel agnaldo aguinaldo aldo alessandro alfredo almir aloisio
+altair alvaro amilton anselmo aparecido arlindo armando atila baltazar bartolomeu
+benjamim caetano celso clovis cristovao darci decio delmar dimas dionisio djalma edgar
+edgard edivaldo edmundo elton eliseu enio erasmo ernesto euclides eugenio everaldo
+expedito ezequias fausto felix frederico genival gerson gilvan givaldo goncalo
+gregorio helio heraldo hermes horacio ilson inacio isaias israel ivo jacinto jaime
+januario jeremias josias juarez jurandir laercio lazaro leopoldo lindomar lucio luan
+marcilio mariano marinaldo martim matias maximiliano messias moacir nazareno nestor
+newton nicolau noel norberto olavo olimpio onofre osiel otacilio otaviano paulino
+petronio plinio quirino ramon regis roberval romario romeu roque rosivaldo rui ruy
+salvador sidnei sidney simao tadeu tarcisio teodoro tomas thomas ubiratan valdemar
+valdeci valdecir valmir vanderlei vilmar walmir wanderlei zacarias adalberto adelino
+afonso agostinho aldair alcides amadeu anibal apolinario aristides atilio aurelio
+avelino bento braz bras camilo candido celestino cirilo claudionor conrado cosme
+custodio dario diogo domingos durval edmar eliezer elio eloi emilio estevao eusebio
+evaristo fabiano feliciano felisberto firmino florencio geovane getulio gildo guido
+heleno herculano hilario honorio irineu jacob jadson jailson jandir jesus juvenal
+lauro leonidas lino lourenco macario marcolino maximo natanael nilo odilon olegario
+oscar pascoal patricio ronan rosalvo rubem sandoval saturnino silvestre sinval
+teobaldo tobias ulisses valentim vitorino wanderley zeferino rian ryan kaua theodoro
+pietro anthony antony levi noah oliver ravi enrico joaquim davi lorenzo gael bento
+heitor benicio henry yago iago kaio kalebe caleb eduardo emerson enzo erick everson
+fabio giovanni gian hiago iuri jhonatan joel juan kaike kauan kawan luigi marlon
+mikael miguel natanael nicolas otavio pablo raphael rayan richard robson rogerio
+ruan samuel sergio thales tales thiago tulio vitor wallace weslley yan yuri
+adenilson ailton altamiro antenor arcanjo aroldo avelar bruno cassio cleber cleiton
+cleyton creso deivid diogenes dorival edelson ednaldo eliton erivaldo francinaldo
+genilson gildasio heitor ivanildo izaias jackson jairo jandson jhony josimar
+josivaldo lindemberg manasses marivaldo nailton nilson pericles raimison rivaldo
+rogerio rosinaldo sidinei valdemir valdinei wesley wilian

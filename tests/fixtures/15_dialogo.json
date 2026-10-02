@@ -1,0 +1,19 @@
+{
+  "descricao": "Diálogo com rótulos de fala, que não podem ser censurados.",
+  "paciente": {
+    "nome": "Eduardo Rangel",
+    "cpf": "",
+    "telefone": "(41) 99700-1234",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Terapeuta: Como foi a conversa com o seu pai?\nPaciente: Ruim. Ele disse que eu sou igual ao tio Wagner, que nunca parou em emprego nenhum.\nTerapeuta: E o que você respondeu?\nPaciente: Nada. A minha mãe, a Sônia, mandou mensagem depois pedindo desculpas. Ela disse: Eduardo, seu pai não quis dizer isso.\nTerapeuta: E a Bruna? Você contou para ela?\nPaciente: Contei. Ela me ligou do trabalho, do 3344-5566.",
+  "esperado": [
+    {"trecho": "Wagner", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Sônia", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Eduardo", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Bruna", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "3344-5566", "tipo": "TELEFONE", "camada": 2}
+  ],
+  "preservar": ["Terapeuta:", "Paciente:", "Ruim.", "Nada.", "Contei."]
+}

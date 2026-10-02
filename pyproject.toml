@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anonimizador"
+version = "0.1.0"
+description = "Censura local de dados pessoais em texto clínico em português (Presidio + spaCy)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "João Gabriel de Almeida" }]
+requires-python = ">=3.10"
+dependencies = [
+    "spacy>=3.8,<3.9",
+    "presidio-analyzer>=2.2.364,<2.3",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+ferramentas = ["httpx"]
+
+[tool.setuptools]
+packages = ["anonimizador"]
+
+[tool.setuptools.package-data]
+anonimizador = ["dados/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# Os marcados com `modelo` precisam de um modelo spaCy de verdade (ANONIMIZADOR_MODELO).
+addopts = "-q --tb=short -m \"not modelo\""
+markers = [
+    "modelo: precisa de um modelo spaCy instalado (defina ANONIMIZADOR_MODELO)",
+]

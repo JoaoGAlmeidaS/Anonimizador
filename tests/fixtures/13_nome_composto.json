@@ -1,0 +1,19 @@
+{
+  "descricao": "Nome composto do paciente, apelido derivado dele e terceiros com nomes compostos.",
+  "paciente": {
+    "nome": "Maria Eduarda Fonseca",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Maria Eduarda chegou atrasada. Em casa a chamam de Duda, mas na escola é Eduarda. A professora, Maria Clara, disse aos pais que ela anda distraída. A melhor amiga, Ana Beatriz, mudou de turma.",
+  "esperado": [
+    {"trecho": "Maria Eduarda", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Eduarda", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Duda", "tipo": "PACIENTE", "camada": 4},
+    {"trecho": "Maria Clara", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Ana Beatriz", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["A professora", "mudou de turma"]
+}

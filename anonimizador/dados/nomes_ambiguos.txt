@@ -1,0 +1,74 @@
+# Nomes que também são palavras comuns. Na camada 3, só contam como nome quando
+# vêm acompanhados de outro nome ou de sobrenome ("Rosa Maria", "Glória Souza").
+# Sozinhos ("Domingo eu fui...", "Graça a Deus", "Irmã dela") ficam para o NER e a
+# revisão humana. Curada à mão. A comparação ignora acento e caixa — por isso
+# "Irmã" (palavra) e "Irma" (nome) são a mesma entrada.
+Rosa
+# "Março" sem acento vira "marco" — o nome Marco abriria toda frase sobre março.
+Marco
+Norma
+Tales
+Máximo
+Arcanjo
+Hosana
+Paz
+Luz
+Glória
+Vitória
+Graça
+Cruz
+Clara
+Dores
+Socorro
+Aparecida
+Conceição
+Domingo
+Domingos
+Natal
+Salvador
+Jesus
+Messias
+Cristo
+Divina
+Divino
+Celeste
+Aurora
+Margarida
+Penha
+Nazaré
+Rosário
+Neto
+Filho
+Filha
+Irma
+Ida
+Júnior
+Sobrinho
+Linda
+Bela
+Flor
+Pérola
+Esperança
+Fé
+Amor
+Íris
+Rubi
+Safira
+Jade
+Cândido
+Cândida
+Angélica
+Amara
+Leão
+Lobo
+Santa
+Santo
+Sereno
+Serena
+Constância
+Prudência
+Clemência
+Justo
+Franco
+Severo
+Modesto

@@ -1,0 +1,17 @@
+{
+  "descricao": "Nomes abrindo frase contam; palavras comuns capitalizadas por abrirem frase ficam.",
+  "paciente": {
+    "nome": "Thiago Mendes",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Thiago chegou cansado. Ontem ele brigou com a namorada. Paula, a namorada, quer morar junto. Depois ele falou do trabalho. Sábado vai visitar os pais. Luana, a irmã, vai junto.",
+  "esperado": [
+    {"trecho": "Thiago", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Paula", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Luana", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["Ontem", "Depois", "Sábado"]
+}

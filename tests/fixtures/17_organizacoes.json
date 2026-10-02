@@ -1,0 +1,20 @@
+{
+  "descricao": "Empresas, escolas, clube e hospital — só o NER pega.",
+  "paciente": {
+    "nome": "Daniela Cordeiro",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Daniela trabalha no Banco do Brasil há dez anos e está pensando em pedir transferência. O marido é professor na Universidade Federal de Minas Gerais. O filho estuda no Colégio Santo Agostinho e faz natação no Clube Atlético Paulistano. Ela quer procurar o Hospital das Clínicas para a mãe.",
+  "esperado": [
+    {"trecho": "Daniela", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Banco do Brasil", "tipo": "ORGANIZACAO", "camada": 4},
+    {"trecho": "Universidade Federal de Minas Gerais", "tipo": "ORGANIZACAO", "camada": 4},
+    {"trecho": "Colégio Santo Agostinho", "tipo": "ORGANIZACAO", "camada": 4},
+    {"trecho": "Clube Atlético Paulistano", "tipo": "ORGANIZACAO", "camada": 4},
+    {"trecho": "Hospital das Clínicas", "tipo": "ORGANIZACAO", "camada": 4}
+  ],
+  "preservar": ["dez anos", "natação"]
+}

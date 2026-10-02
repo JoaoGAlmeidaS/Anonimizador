@@ -1,0 +1,19 @@
+{
+  "descricao": "CPF do paciente com e sem pontuação, CPF válido de terceiro e CPF formatado com dígito errado.",
+  "paciente": {
+    "nome": "Larissa Moraes",
+    "cpf": "730.194.582-50",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Larissa trouxe a ficha do plano de saúde. O CPF dela, 730.194.582-50, estava errado no cadastro antigo, que mostrava 73019458250 sem pontuação. O CPF do pai, que é titular, é 265.830.914-70. Ela leu também o número do irmão, 123.456.789-00, mas acha que anotou um dígito errado. O protocolo do atendimento era 20231105.",
+  "esperado": [
+    {"trecho": "Larissa", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "730.194.582-50", "tipo": "CPF", "camada": 1},
+    {"trecho": "73019458250", "tipo": "CPF", "camada": 1},
+    {"trecho": "265.830.914-70", "tipo": "CPF", "camada": 2},
+    {"trecho": "123.456.789-00", "tipo": "CPF", "camada": 2}
+  ],
+  "preservar": ["20231105", "plano de saúde"]
+}

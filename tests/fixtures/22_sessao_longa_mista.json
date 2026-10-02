@@ -1,0 +1,29 @@
+{
+  "descricao": "Sessão longa misturando todas as camadas.",
+  "paciente": {
+    "nome": "Felipe Rocha Brandão",
+    "cpf": "127.845.930-88",
+    "telefone": "(51) 99234-5678",
+    "email": "felipe.brandao@exemplo.com",
+    "contato_emergencia": "Adriana Rocha (mãe) 51 3222-1100"
+  },
+  "texto": "Paciente: Eu queria começar falando do aniversário. A minha mãe, a Adriana, organizou uma festa surpresa na casa dela em Canoas, e eu odiei. Tinha gente que eu não via desde a escola, o Bruno, a Daiane, o Vinícius. O Vinícius ficou o tempo todo falando da empresa dele, a Construtora Horizonte, e de como ele está bem.\nTerapeuta: E o que isso despertou em você?\nPaciente: Comparação, eu acho. Eu me senti um fracasso. Depois todo mundo foi embora e eu fiquei lavando louça com a minha mãe. Ela perguntou: Felipe, você ainda está saindo com a Tainá? Eu disse que não, que a gente terminou em 02/07/2024. Ela ficou quieta.\nPaciente: No dia seguinte a Tainá me mandou mensagem no felipe.brandao@exemplo.com dizendo que tinha esquecido um casaco na minha casa. Eu nem respondi. Pedi pra ela ligar pra minha mãe no 3222-1100 se quisesse buscar.\nTerapeuta: Você evitou o contato.\nPaciente: Evitei. O Dr. Henrique, meu psiquiatra lá no Hospital Moinhos de Vento, disse que isso é parte do padrão. Ele aumentou a dose do remédio na última consulta, dia 10 de setembro de 2024. Ah, e o plano pediu meu CPF de novo, 127.845.930-88, porque o cadastro estava errado.",
+  "esperado": [
+    {"trecho": "Adriana", "tipo": "PESSOA", "camada": 1},
+    {"trecho": "Felipe", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "felipe.brandao@exemplo.com", "tipo": "EMAIL", "camada": 1},
+    {"trecho": "3222-1100", "tipo": "TELEFONE", "camada": 1},
+    {"trecho": "127.845.930-88", "tipo": "CPF", "camada": 1},
+    {"trecho": "02/07/2024", "tipo": "DATA", "camada": 2},
+    {"trecho": "10 de setembro de 2024", "tipo": "DATA", "camada": 2},
+    {"trecho": "Bruno", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Daiane", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Vinícius", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Tainá", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Henrique", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Canoas", "tipo": "LOCAL", "camada": 4},
+    {"trecho": "Construtora Horizonte", "tipo": "ORGANIZACAO", "camada": 4},
+    {"trecho": "Hospital Moinhos de Vento", "tipo": "ORGANIZACAO", "camada": 4}
+  ],
+  "preservar": ["Paciente:", "Terapeuta:", "festa surpresa", "minha mãe"]
+}

@@ -1,0 +1,19 @@
+{
+  "descricao": "Transcrição com um segmento por linha: toda linha começa com maiúscula, e o NER marcava 'Total', 'Ansiedade', 'Saudade' e 'Instagram' como pessoa. Nomes de verdade no início da linha continuam censurados.",
+  "paciente": {
+    "nome": "Marcela Duarte",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Paciente: Então.\nTotal.\nFoi uma semana pesada.\nAnsiedade. Medo. Tristeza.\nSaudade da minha mãe, sabe?\nCansada.\nVitória me ligou ontem.\nIrmã dela também ligou.\nEla me mandou mensagem no Instagram e no WhatsApp.\nExatamente.\nDepois eu vi um vídeo no YouTube com o Pedro.\nDomingo a Paula vem aqui.\nMarcela, você precisa descansar, ela disse.",
+  "esperado": [
+    {"trecho": "Marcela", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Pedro", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Paula", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Vitória", "tipo": "PESSOA", "camada": 4}
+  ],
+  "preservar": ["Total.", "Ansiedade. Medo. Tristeza.", "Saudade da minha mãe", "Cansada.", "Irmã dela", "Instagram", "WhatsApp", "Exatamente.", "YouTube", "Domingo a"],
+  "preservar_com_ner": ["Total.", "Ansiedade. Medo. Tristeza.", "Saudade da minha mãe", "Cansada.", "Irmã dela", "Instagram", "WhatsApp", "Exatamente.", "YouTube", "Domingo a"]
+}

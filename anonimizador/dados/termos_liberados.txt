@@ -1,0 +1,84 @@
+# Termos que o NER (camada 4) e o dicionário de nomes (camada 3) costumam marcar
+# sem que identifiquem ninguém. Um trecho detectado que seja exatamente um destes
+# (sem diferenciar acento e maiúscula) não é censurado. Não vale para a deny-list
+# do paciente nem para os padrões (CPF, telefone...).
+#
+# Ficam de fora de propósito: "Jesus" sozinho e "Natal" — também são nome de gente
+# e de cidade. Curada à mão; ao acrescentar, prefira o que não aponta para pessoa,
+# lugar ou instituição específica.
+
+# Rótulos de fala e de profissão
+Paciente
+Terapeuta
+Psicóloga
+Psicólogo
+Psiquiatra
+Doutor
+Doutora
+Dr
+Dra
+
+# Religião e país
+Deus
+Nossa Senhora
+Jesus Cristo
+Brasil
+
+# Redes sociais, aplicativos e marcas de uso geral
+Instagram
+Insta
+WhatsApp
+Whats
+Zap
+Facebook
+Face
+TikTok
+YouTube
+Twitter
+LinkedIn
+Telegram
+Tinder
+Bumble
+Netflix
+Spotify
+Uber
+iFood
+Google
+Gmail
+Hotmail
+Outlook
+Zoom
+Teams
+Skype
+Discord
+Snapchat
+Pinterest
+Kwai
+Threads
+Shopee
+Shein
+Amazon
+Mercado Livre
+Nubank
+Pix
+iPhone
+Android
+Samsung
+Apple
+Microsoft
+ChatGPT
+
+# Serviços públicos genéricos (sem cidade não identificam unidade nenhuma)
+SUS
+INSS
+CAPS
+UBS
+UPA
+
+# Datas festivas sem ambiguidade
+Carnaval
+Páscoa
+Ano Novo
+Dia das Mães
+Dia dos Pais
+Dia dos Namorados

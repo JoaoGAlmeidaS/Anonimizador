@@ -1,0 +1,20 @@
+{
+  "descricao": "Nomes com 'das'/'de' no meio e nome do paciente hifenizado.",
+  "paciente": {
+    "nome": "Ana Luísa dos Santos Pereira",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Ana Luísa contou que a avó, Maria das Dores, faleceu em outubro. O avô, João de Deus Moreira, ainda mora no sítio. Ana-Luísa, como a avó escrevia, era o apelido de infância. A prima Luiza veio do Recife para o enterro.",
+  "esperado": [
+    {"trecho": "Ana Luísa", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Ana-Luísa", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Maria das Dores", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "João de Deus Moreira", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Luiza", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Recife", "tipo": "LOCAL", "camada": 4}
+  ],
+  "preservar": ["em outubro", "no sítio"]
+}

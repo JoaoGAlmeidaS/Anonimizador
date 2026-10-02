@@ -1,0 +1,20 @@
+{
+  "descricao": "Datas completas em vários formatos; datas parciais ('em março', '12 de maio') ficam.",
+  "paciente": {
+    "nome": "Cecília Andrade",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Cecília nasceu em 14/02/1990 e casou em 3 de setembro de 2015. O divórcio saiu no dia 21.06.2022. Ela marcou a próxima consulta com o psiquiatra para 05/11/24. Em março ela pretende viajar, e na terça que vem tem audiência. O aniversário do filho, Davi, é em 12 de maio.",
+  "esperado": [
+    {"trecho": "Cecília", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "14/02/1990", "tipo": "DATA", "camada": 2},
+    {"trecho": "3 de setembro de 2015", "tipo": "DATA", "camada": 2},
+    {"trecho": "21.06.2022", "tipo": "DATA", "camada": 2},
+    {"trecho": "05/11/24", "tipo": "DATA", "camada": 2},
+    {"trecho": "Davi", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["Em março", "na terça", "12 de maio"]
+}

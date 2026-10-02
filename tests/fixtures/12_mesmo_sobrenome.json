@@ -1,0 +1,17 @@
+{
+  "descricao": "Terceiro com o mesmo sobrenome do paciente: 'Carlos Ferraz' é pessoa, não o paciente.",
+  "paciente": {
+    "nome": "Natália Ferraz",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Natália contou que o Carlos Ferraz, primo dela, também está fazendo terapia. A família Ferraz é muito unida, ela disse. A Natália Ferraz de antes não falaria disso.",
+  "esperado": [
+    {"trecho": "Natália", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Ferraz", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Carlos Ferraz", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["primo dela", "A família"]
+}

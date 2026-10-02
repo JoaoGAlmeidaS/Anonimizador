@@ -1,0 +1,18 @@
+{
+  "descricao": "Nome do paciente em caixa alta, minúsculo e sem acento — a deny-list ignora os dois.",
+  "paciente": {
+    "nome": "João Vítor Gonçalves",
+    "cpf": "583.029.461-33",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "JOAO VITOR chegou de uniforme. Na ficha estava escrito joao vitor goncalves, tudo minúsculo e sem acento. O CPF 583.029.461-33 confere. O treinador, Wellington, quer que ele jogue no sábado.",
+  "esperado": [
+    {"trecho": "JOAO VITOR", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "joao vitor goncalves", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "583.029.461-33", "tipo": "CPF", "camada": 1},
+    {"trecho": "Wellington", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["de uniforme", "no sábado"]
+}

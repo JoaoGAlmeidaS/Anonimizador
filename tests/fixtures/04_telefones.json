@@ -1,0 +1,21 @@
+{
+  "descricao": "Telefones em vários formatos: ditado dígito a dígito, sem DDD, com +55, celular sem separador.",
+  "paciente": {
+    "nome": "Otávio Siqueira",
+    "cpf": "",
+    "telefone": "+55 (21) 99654-3210",
+    "email": "",
+    "contato_emergencia": "Sandra Siqueira, esposa: (21) 2233-4455"
+  },
+  "texto": "Otávio disse que trocou de número e agora é 9 9 6 5 4 3 2 1 0, sem o DDD. A esposa dele pediu para eu anotar o fixo de casa, 2233-4455. O consultório antigo ligava no +55 11 3030-4040. A amiga dele, Mônica, passou o celular 11 98123-4567, e o vizinho deixou o 987654321 escrito num papel.",
+  "esperado": [
+    {"trecho": "Otávio", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "9 9 6 5 4 3 2 1 0", "tipo": "TELEFONE", "camada": 1},
+    {"trecho": "2233-4455", "tipo": "TELEFONE", "camada": 1},
+    {"trecho": "+55 11 3030-4040", "tipo": "TELEFONE", "camada": 2},
+    {"trecho": "11 98123-4567", "tipo": "TELEFONE", "camada": 2},
+    {"trecho": "987654321", "tipo": "TELEFONE", "camada": 2},
+    {"trecho": "Mônica", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["sem o DDD", "esposa"]
+}

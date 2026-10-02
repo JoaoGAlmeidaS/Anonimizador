@@ -1,0 +1,18 @@
+{
+  "descricao": "E-mail do paciente que contém o próprio nome: o trecho é EMAIL, não [PACIENTE].",
+  "paciente": {
+    "nome": "Rafaela Torres",
+    "cpf": "",
+    "telefone": "",
+    "email": "rafaela.torres@exemplo.net",
+    "contato_emergencia": ""
+  },
+  "texto": "A Rafaela pediu para eu escrever para rafaela.torres@exemplo.net e copiar a advogada, a doutora Camila, no camila.adv@exemplo.net.",
+  "esperado": [
+    {"trecho": "Rafaela", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "rafaela.torres@exemplo.net", "tipo": "EMAIL", "camada": 1},
+    {"trecho": "Camila", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "camila.adv@exemplo.net", "tipo": "EMAIL", "camada": 2}
+  ],
+  "preservar": ["a advogada, a doutora"]
+}

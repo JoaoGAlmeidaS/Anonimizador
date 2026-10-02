@@ -1,0 +1,13 @@
+{
+  "descricao": "Nada para censurar: cor, flor, dia da semana e mês no texto não podem virar marcador.",
+  "paciente": {
+    "nome": "Sérgio Lacerda",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Paciente: Hoje eu acordei melhor. Domingo foi tranquilo, fiquei em casa lendo. Comprei uma camisa rosa e plantei margaridas no quintal.\nTerapeuta: Que bom. E o sono?\nPaciente: Melhorou. Durmo umas sete horas por noite desde março.",
+  "esperado": [],
+  "preservar": ["Domingo", "camisa rosa", "margaridas", "Terapeuta:", "Paciente:", "desde março", "sete horas"]
+}

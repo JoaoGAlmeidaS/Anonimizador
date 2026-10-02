@@ -1,0 +1,22 @@
+{
+  "descricao": "Apelidos: 'Zé Carlos' e outros que não estão em lista nenhuma — ficam para o NER e a revisão.",
+  "paciente": {
+    "nome": "José Carlos Bezerra",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "O Zé Carlos disse que em casa todo mundo chama ele de Zezinho. A filha, Duda, está com nove anos. O melhor amigo da escola era o Cacá, e a namorada da época, a Tati, mudou para Portugal. Hoje ele só fala com o Juninho, um colega do futebol.",
+  "esperado": [
+    {"trecho": "Carlos", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Zé", "tipo": "PACIENTE", "camada": 3},
+    {"trecho": "Zezinho", "tipo": "PESSOA", "camada": 4},
+    {"trecho": "Duda", "tipo": "PESSOA", "camada": 4},
+    {"trecho": "Cacá", "tipo": "PESSOA", "camada": 4},
+    {"trecho": "Tati", "tipo": "PESSOA", "camada": 4},
+    {"trecho": "Portugal", "tipo": "LOCAL", "camada": 4},
+    {"trecho": "Juninho", "tipo": "PESSOA", "camada": 4}
+  ],
+  "preservar": ["nove anos", "futebol"]
+}

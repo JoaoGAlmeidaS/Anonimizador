@@ -1,0 +1,18 @@
+{
+  "descricao": "Nomes que são palavras comuns: só contam acompanhados. 'Domingo' e 'Março' no início da frase ficam.",
+  "paciente": {
+    "nome": "Fábio Correia",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Fábio contou que a tia, Rosa Maria Campos, vai passar uns dias com ele. Domingo eu fui à praia, ele disse, e pensei nela. Março sempre foi um mês difícil para a família. A Glória Pereira, vizinha, ajuda a cuidar da tia. Graças a Deus, ele disse, a irmã mais nova, Vitória, mora perto. Ele comprou rosas e um vaso rosa para a sala. Irmã dele também vem.",
+  "esperado": [
+    {"trecho": "Fábio", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Rosa Maria Campos", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Glória Pereira", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Vitória", "tipo": "PESSOA", "camada": 4}
+  ],
+  "preservar": ["Domingo", "Março", "Graças a Deus", "rosas", "vaso rosa", "Irmã dele"]
+}

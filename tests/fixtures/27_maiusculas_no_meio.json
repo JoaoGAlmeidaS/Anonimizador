@@ -1,0 +1,18 @@
+{
+  "descricao": "Maiúscula no meio da frase: palavra muito comum ('minha Mãe', 'valor Total') não é nome; já 'Contagem' (cidade e palavra), hospital e rua continuam censurados.",
+  "paciente": {
+    "nome": "Sérgio Moura",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Minha Mãe disse que o valor Total da consulta subiu. Ela mora em Contagem, perto do Hospital das Clínicas, e trabalha na Rua das Acácias.",
+  "esperado": [
+    {"trecho": "Contagem", "tipo": "LOCAL", "camada": 4},
+    {"trecho": "Hospital das Clínicas", "tipo": "ORGANIZACAO", "camada": 4},
+    {"trecho": "Rua das Acácias", "tipo": "LOCAL", "camada": 4}
+  ],
+  "preservar": ["Minha Mãe", "valor Total"],
+  "preservar_com_ner": ["Minha Mãe", "valor Total"]
+}

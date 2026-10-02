@@ -1,0 +1,17 @@
+{
+  "descricao": "Sessão curta: nome do paciente, mãe vinda do contato de emergência, terceiro da lista do IBGE.",
+  "paciente": {
+    "nome": "Beatriz Camargo Nunes",
+    "cpf": "418.257.306-44",
+    "telefone": "(11) 97412-3358",
+    "email": "bia.nunes@exemplo.com",
+    "contato_emergencia": "Helena Camargo (mãe) (11) 3456-7890"
+  },
+  "texto": "A Beatriz chegou dizendo que dormiu mal a semana toda. Contou que a mãe, Helena, ligou três vezes no domingo. Ela também comentou que o chefe, Ricardo, cobrou o relatório na frente de todos. Beatriz disse que pensou em faltar, mas foi trabalhar.",
+  "esperado": [
+    {"trecho": "Beatriz", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Helena", "tipo": "PESSOA", "camada": 1},
+    {"trecho": "Ricardo", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["domingo", "chefe", "a mãe"]
+}

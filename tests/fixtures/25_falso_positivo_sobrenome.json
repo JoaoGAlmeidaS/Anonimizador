@@ -1,0 +1,18 @@
+{
+  "descricao": "Sobrenome do paciente que também é palavra comum: sozinho e em minúsculas ('tomei leite') não é o paciente. Com maiúscula, ou junto do nome, é. Depende do léxico do modelo (palavra comum), por isso o 'leite' é conferido com o NER.",
+  "paciente": {
+    "nome": "Carolina Leite",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Carolina contou que parou de tomar leite por causa do estômago. A nutricionista sugeriu trocar por bebida de aveia. Na escola, chamavam ela de Leite. No crachá antigo estava escrito carolina leite, tudo minúsculo.",
+  "esperado": [
+    {"trecho": "Carolina", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Leite", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "carolina leite", "tipo": "PACIENTE", "camada": 1}
+  ],
+  "preservar": ["bebida de aveia"],
+  "preservar_com_ner": ["tomar leite por causa"]
+}

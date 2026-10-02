@@ -1,0 +1,20 @@
+{
+  "descricao": "Família grande com nomes repetidos: cada pessoa mantém o mesmo marcador em todo o texto.",
+  "paciente": {
+    "nome": "Priscila Machado",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "Priscila falou muito da família. O pai, Raimundo, e a mãe, Francisca, moram no interior. Os irmãos são o Antônio, o Francisco e a Raimunda. O Antônio é o mais velho e sempre brigou com o Francisco. A Raimunda cuida dos pais. Priscila sente culpa por morar longe de Raimundo e Francisca.",
+  "esperado": [
+    {"trecho": "Priscila", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "Raimundo", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Francisca", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Antônio", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Francisco", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "Raimunda", "tipo": "PESSOA", "camada": 3}
+  ],
+  "preservar": ["no interior", "sente culpa"]
+}

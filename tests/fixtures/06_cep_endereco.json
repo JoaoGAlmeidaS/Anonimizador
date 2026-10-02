@@ -1,0 +1,21 @@
+{
+  "descricao": "CEPs em três formatos, rua, bairro e escola.",
+  "paciente": {
+    "nome": "Vanessa Prado Lins",
+    "cpf": "",
+    "telefone": "",
+    "email": "",
+    "contato_emergencia": ""
+  },
+  "texto": "A Vanessa vai se mudar para a Rua das Acácias, 120, no bairro Jardim Esperança. O CEP novo é 04567-890. Ela ainda recebe cartas no endereço antigo, CEP 13.010-200, e no da avó, cep 60150160. Fica perto da Escola Estadual Monteiro Lobato.",
+  "esperado": [
+    {"trecho": "Vanessa", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "04567-890", "tipo": "CEP", "camada": 2},
+    {"trecho": "13.010-200", "tipo": "CEP", "camada": 2},
+    {"trecho": "60150160", "tipo": "CEP", "camada": 2},
+    {"trecho": "Rua das Acácias", "tipo": "LOCAL", "camada": 4},
+    {"trecho": "Jardim Esperança", "tipo": "LOCAL", "camada": 4},
+    {"trecho": "Escola Estadual Monteiro Lobato", "tipo": "ORGANIZACAO", "camada": 4}
+  ],
+  "preservar": ["endereço antigo"]
+}

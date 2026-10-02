@@ -1,0 +1,20 @@
+{
+  "descricao": "E-mail do paciente escrito e ditado; e-mails de terceiros escrito e ditado.",
+  "paciente": {
+    "nome": "Guilherme Pacheco Dantas",
+    "cpf": "",
+    "telefone": "",
+    "email": "gui.dantas@exemplo.com.br",
+    "contato_emergencia": ""
+  },
+  "texto": "O Guilherme pediu que eu mandasse a nota fiscal para gui.dantas@exemplo.com.br, ou, como ele falou, gui ponto dantas arroba exemplo ponto com ponto br. A ex-namorada dele, Renata, continua mandando mensagens do renata.alves@exemplo.org. Ele também comentou que o primo usa o email primo arroba exemplo ponto com.",
+  "esperado": [
+    {"trecho": "Guilherme", "tipo": "PACIENTE", "camada": 1},
+    {"trecho": "gui.dantas@exemplo.com.br", "tipo": "EMAIL", "camada": 1},
+    {"trecho": "gui ponto dantas arroba exemplo ponto com ponto br", "tipo": "EMAIL", "camada": 1},
+    {"trecho": "Renata", "tipo": "PESSOA", "camada": 3},
+    {"trecho": "renata.alves@exemplo.org", "tipo": "EMAIL", "camada": 2},
+    {"trecho": "primo arroba exemplo ponto com", "tipo": "EMAIL", "camada": 2}
+  ],
+  "preservar": ["nota fiscal"]
+}
